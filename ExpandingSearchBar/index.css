@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-bar {
+ width: 10%;
+ padding: 10px;
+ font-size: 16px;
+ border: 2px solid #ccc;
+ border-radius: 5px;
+ transition: width 0.4s ease-in-out;
+}
+
+.search-bar:focus {
+  width: 90%;
+} 
+
+label {
+  margin-right: 10px;
+}
